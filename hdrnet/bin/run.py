@@ -30,8 +30,8 @@ import sys
 import time
 import tensorflow as tf
 
-import hdrnet.models as models
-import hdrnet.utils as utils
+import models as models
+import utils as utils
 
 
 logging.basicConfig(format="[%(process)d] %(levelname)s %(filename)s:%(lineno)s | %(message)s")
